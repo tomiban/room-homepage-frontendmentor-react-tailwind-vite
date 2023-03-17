@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-src/components/Navbar.jsx
 room-homepage-master/room-homepage-master/design/active-states.jpg
 room-homepage-master/room-homepage-master/design/desktop-design-slide-1.jpg
 room-homepage-master/room-homepage-master/design/desktop-design-slide-2.jpg

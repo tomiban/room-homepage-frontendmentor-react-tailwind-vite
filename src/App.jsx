@@ -4,8 +4,7 @@ import ImgAboutLight from "./assets/images/image-about-light.jpg";
 import ArrowIcon from "./assets/svg/icon-arrow.jsx";
 import IconPrev from "./assets/svg/icon-angle-left";
 import IconNext from "./assets/svg/icon-angle-right";
-import NavBar from "./components/Navbar";
-
+import NavBar from "./components/NavBar";
 const App = () => {
 	return (
 		<div className="h-full">
