@@ -45,8 +45,11 @@ const NavBar = () => {
                         <a
                             key={link.text}
                             href={link.href}
-                            className='border-b-2 font-semibold border-transparent transition-all duration-500 ease-in-out hover:border-white'>
-                            {link.text}
+                            className="font-bold"
+                        >
+                            <span className='peer'>{link.text}</span>
+                            <span className='block h-[0.15rem] w-full scale-x-0 transition-all duration-500 peer-hover:scale-x-100 lg:peer-hover:bg-white peer-hover:bg-black'></span>
+                            
                         </a>
                     ))}
                 </div>
